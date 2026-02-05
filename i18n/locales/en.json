@@ -1,3 +1,134 @@
 {
-
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact",
+        "getStarted": "Get Started"
+    },
+    "hero": {
+        "badge": "Innovating the Future of Technology",
+        "title1": "Build The Future",
+        "title2": "With Innovation",
+        "subtitle": "We craft cutting-edge software solutions that transform ideas into reality. Empowering businesses with technology that scales.",
+        "cta1": "Start Your Project",
+        "cta2": "View Our Work",
+        "stats": {
+            "projects": "Projects Delivered",
+            "satisfaction": "Client Satisfaction",
+            "team": "Team Members",
+            "experience": "Years Experience"
+        }
+    },
+    "about": {
+        "badge": "About Us",
+        "title1": "Transforming Ideas Into",
+        "title2": "Digital Reality",
+        "subtitle": "We are a team of passionate developers, designers, and innovators dedicated to creating exceptional software solutions that drive business growth.",
+        "services": {
+            "web": {
+                "title": "Web Development",
+                "description": "Custom web applications built with cutting-edge technologies for optimal performance."
+            },
+            "mobile": {
+                "title": "Mobile Apps",
+                "description": "Native and cross-platform mobile solutions that deliver exceptional user experiences."
+            },
+            "cloud": {
+                "title": "Cloud Solutions",
+                "description": "Scalable cloud infrastructure and migration services for modern businesses."
+            },
+            "ai": {
+                "title": "AI & Machine Learning",
+                "description": "Intelligent systems that automate processes and provide valuable insights."
+            },
+            "security": {
+                "title": "Cybersecurity",
+                "description": "Comprehensive security solutions to protect your digital assets."
+            },
+            "performance": {
+                "title": "Performance Optimization",
+                "description": "Speed and efficiency improvements that enhance user satisfaction."
+            }
+        },
+        "features": {
+            "team": {
+                "title": "Expert Team",
+                "description": "Talented professionals with years of industry experience"
+            },
+            "quality": {
+                "title": "Quality Assurance",
+                "description": "Rigorous testing ensures flawless product delivery"
+            },
+            "agile": {
+                "title": "Agile Methodology",
+                "description": "Fast iterations and continuous improvement"
+            }
+        }
+    },
+    "projects": {
+        "badge": "Our Work",
+        "title1": "Featured",
+        "title2": "Projects",
+        "subtitle": "Explore our portfolio of successful projects that showcase our expertise and commitment to excellence.",
+        "items": {
+            "ecommerce": {
+                "title": "E-Commerce Platform",
+                "description": "A modern, scalable e-commerce solution with real-time inventory management.",
+                "category": "Web Development"
+            },
+            "healthcare": {
+                "title": "Healthcare App",
+                "description": "Mobile application connecting patients with healthcare providers seamlessly.",
+                "category": "Mobile Development"
+            },
+            "analytics": {
+                "title": "Analytics Dashboard",
+                "description": "Real-time data visualization platform for business intelligence.",
+                "category": "Data Analytics"
+            },
+            "chatbot": {
+                "title": "AI Chatbot",
+                "description": "Intelligent conversational AI for customer support automation.",
+                "category": "Artificial Intelligence"
+            },
+            "cloud": {
+                "title": "Cloud Infrastructure",
+                "description": "Scalable microservices architecture deployed on AWS.",
+                "category": "Cloud Computing"
+            },
+            "blockchain": {
+                "title": "Blockchain Wallet",
+                "description": "Secure cryptocurrency wallet with multi-chain support.",
+                "category": "Blockchain"
+            }
+        },
+        "viewAll": "View All Projects"
+    },
+    "footer": {
+        "tagline": "Transforming ideas into reality with cutting-edge software solutions. Building the future, one line of code at a time.",
+        "company": {
+            "title": "Company",
+            "aboutUs": "About Us",
+            "services": "Services",
+            "projects": "Projects",
+            "careers": "Careers"
+        },
+        "services": {
+            "title": "Services",
+            "web": "Web Development",
+            "mobile": "Mobile Apps",
+            "cloud": "Cloud Solutions",
+            "ai": "AI & ML"
+        },
+        "support": {
+            "title": "Support",
+            "contact": "Contact",
+            "docs": "Documentation",
+            "faq": "FAQ",
+            "privacy": "Privacy Policy"
+        },
+        "copyright": "Silicon Infiniti. All rights reserved."
+    }
 }

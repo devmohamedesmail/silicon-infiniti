@@ -1,17 +1,20 @@
 import About from "@/components/sections/about";
+import Hero from "@/components/sections/hero";
 import Projects from "@/components/sections/projects";
-import { Button } from "@/components/ui/button"
 import Footer from "@/components/ui/footer";
 import Navbar from "@/components/ui/navbar";
+import LanguageSwitcher from "@/components/ui/language-switcher";
 
 export default function Home() {
-  
+
   return (
     <div>
       <Navbar />
+      <Hero />
       <About />
       <Projects />
       <Footer />
+      <LanguageSwitcher />
     </div>
   );
 }
