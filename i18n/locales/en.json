@@ -318,5 +318,126 @@
             "description": "Let's collaborate to bring your vision to life with innovative technology solutions.",
             "button": "Start Your Project"
         }
+    },
+    "servicesPage": {
+        "badge": "What We Offer",
+        "title1": "Professional",
+        "title2": "Services & Solutions",
+        "subtitle": "Comprehensive technology services designed to transform your business and drive innovation across all digital platforms.",
+        "services": {
+            "title": "Our Services",
+            "subtitle": "Cutting-edge solutions tailored to your needs",
+            "items": {
+                "web": {
+                    "title": "Web Development",
+                    "description": "Custom web applications built with modern frameworks and best practices for optimal performance and user experience.",
+                    "features": {
+                        "responsive": "Responsive Design",
+                        "performance": "High Performance",
+                        "seo": "SEO Optimized",
+                        "security": "Secure Architecture"
+                    }
+                },
+                "mobile": {
+                    "title": "Mobile Development",
+                    "description": "Native and cross-platform mobile applications that deliver exceptional user experiences on iOS and Android.",
+                    "features": {
+                        "native": "Native Development",
+                        "crossPlatform": "Cross-Platform",
+                        "ui": "Beautiful UI/UX",
+                        "offline": "Offline Support"
+                    }
+                },
+                "cloud": {
+                    "title": "Cloud Solutions",
+                    "description": "Scalable cloud infrastructure and migration services to modernize your business operations.",
+                    "features": {
+                        "scalable": "Auto-Scaling",
+                        "migration": "Cloud Migration",
+                        "devops": "DevOps Integration",
+                        "monitoring": "24/7 Monitoring"
+                    }
+                },
+                "ai": {
+                    "title": "AI & Machine Learning",
+                    "description": "Intelligent systems powered by artificial intelligence to automate processes and unlock insights.",
+                    "features": {
+                        "ml": "Machine Learning Models",
+                        "nlp": "Natural Language Processing",
+                        "automation": "Process Automation",
+                        "insights": "Predictive Analytics"
+                    }
+                },
+                "security": {
+                    "title": "Cybersecurity",
+                    "description": "Comprehensive security solutions to protect your digital assets and ensure compliance.",
+                    "features": {
+                        "penetration": "Penetration Testing",
+                        "compliance": "Compliance Audits",
+                        "encryption": "Data Encryption",
+                        "monitoring": "Threat Monitoring"
+                    }
+                },
+                "performance": {
+                    "title": "Performance Optimization",
+                    "description": "Speed and efficiency improvements that enhance user satisfaction and reduce operational costs.",
+                    "features": {
+                        "optimization": "Code Optimization",
+                        "caching": "Smart Caching",
+                        "cdn": "CDN Integration",
+                        "database": "Database Tuning"
+                    }
+                }
+            }
+        },
+        "process": {
+            "title": "Our Process",
+            "subtitle": "A proven methodology for delivering exceptional results",
+            "steps": {
+                "discovery": {
+                    "title": "Discovery",
+                    "description": "Understanding your business goals, challenges, and requirements through in-depth consultation."
+                },
+                "planning": {
+                    "title": "Planning",
+                    "description": "Creating detailed project roadmaps, technical specifications, and design mockups."
+                },
+                "development": {
+                    "title": "Development",
+                    "description": "Building your solution using agile methodologies with regular updates and feedback."
+                },
+                "launch": {
+                    "title": "Launch & Support",
+                    "description": "Deploying your solution and providing ongoing maintenance and optimization."
+                }
+            }
+        },
+        "benefits": {
+            "title": "Why Choose Us",
+            "subtitle": "What sets us apart from the competition",
+            "items": {
+                "expertise": {
+                    "title": "Deep Technical Expertise",
+                    "description": "Our team consists of senior developers and architects with years of experience in cutting-edge technologies and industry best practices."
+                },
+                "quality": {
+                    "title": "Quality Assurance",
+                    "description": "Rigorous testing processes and code reviews ensure that every deliverable meets the highest standards of quality and reliability."
+                },
+                "support": {
+                    "title": "Dedicated Support",
+                    "description": "24/7 customer support and maintenance services to ensure your systems run smoothly and efficiently at all times."
+                },
+                "delivery": {
+                    "title": "On-Time Delivery",
+                    "description": "We use agile methodologies and project management tools to ensure timely delivery without compromising on quality."
+                }
+            }
+        },
+        "cta": {
+            "title": "Ready to Get Started?",
+            "description": "Let's discuss how our services can help transform your business and achieve your goals.",
+            "button": "Contact Us Today"
+        }
     }
 }
