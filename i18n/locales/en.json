@@ -239,5 +239,84 @@
             "title": "Follow Us",
             "description": "Stay connected with us on social media"
         }
+    },
+    "projectsPage": {
+        "badge": "Our Portfolio",
+        "title1": "Innovative",
+        "title2": "Projects & Solutions",
+        "subtitle": "Discover our portfolio of cutting-edge projects that showcase our expertise in delivering exceptional software solutions across various industries.",
+        "stats": {
+            "completed": "Projects Completed",
+            "clients": "Happy Clients",
+            "satisfaction": "Satisfaction Rate"
+        },
+        "filters": {
+            "all": "All Projects",
+            "web": "Web Development",
+            "mobile": "Mobile Apps",
+            "cloud": "Cloud Solutions",
+            "ai": "AI & Machine Learning"
+        },
+        "projects": {
+            "ecommerce": {
+                "title": "E-Commerce Platform",
+                "description": "A comprehensive e-commerce solution with real-time inventory management, secure payment processing, and advanced analytics dashboard.",
+                "category": "Web Development"
+            },
+            "healthcare": {
+                "title": "Healthcare Mobile App",
+                "description": "Revolutionary mobile application connecting patients with healthcare providers, featuring telemedicine, appointment scheduling, and health tracking.",
+                "category": "Mobile Development"
+            },
+            "analytics": {
+                "title": "Business Analytics Dashboard",
+                "description": "Real-time data visualization platform providing actionable insights for business intelligence and decision-making.",
+                "category": "Data Analytics"
+            },
+            "chatbot": {
+                "title": "AI-Powered Chatbot",
+                "description": "Intelligent conversational AI system for automated customer support with natural language processing and multi-language support.",
+                "category": "Artificial Intelligence"
+            },
+            "cloud": {
+                "title": "Cloud Infrastructure",
+                "description": "Scalable microservices architecture deployed on AWS with auto-scaling, load balancing, and disaster recovery.",
+                "category": "Cloud Computing"
+            },
+            "blockchain": {
+                "title": "Blockchain Wallet",
+                "description": "Secure cryptocurrency wallet with multi-chain support, hardware wallet integration, and advanced security features.",
+                "category": "Blockchain"
+            },
+            "fintech": {
+                "title": "FinTech Banking App",
+                "description": "Modern digital banking solution with instant payments, budgeting tools, and AI-powered financial insights.",
+                "category": "Mobile Development"
+            },
+            "iot": {
+                "title": "IoT Management Platform",
+                "description": "Comprehensive IoT device management system with real-time monitoring, analytics, and automated workflows.",
+                "category": "Cloud Computing"
+            },
+            "education": {
+                "title": "E-Learning Platform",
+                "description": "Interactive online learning platform with live classes, video streaming, assignments, and progress tracking.",
+                "category": "Web Development"
+            }
+        },
+        "projectStats": {
+            "users": "Users",
+            "rating": "Rating",
+            "uptime": "Uptime"
+        },
+        "noResults": {
+            "title": "No Projects Found",
+            "description": "Try selecting a different category to explore more projects."
+        },
+        "cta": {
+            "title": "Have a Project in Mind?",
+            "description": "Let's collaborate to bring your vision to life with innovative technology solutions.",
+            "button": "Start Your Project"
+        }
     }
 }
