@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Code2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -19,11 +20,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: t('nav.home'), href: '#home' },
-    { name: t('nav.about'), href: '#about' },
+    { name: t('nav.home'), href: '/' },
+    { name: t('nav.about'), href: '/about' },
     { name: t('nav.services'), href: '#services' },
     { name: t('nav.projects'), href: '#projects' },
-    { name: t('nav.contact'), href: '#contact' },
+    { name: t('nav.contact'), href: '/contact' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -62,7 +63,7 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
                 href={link.href}
                 onClick={(e) => {
@@ -73,7 +74,7 @@ export default function Navbar() {
               >
                 {link.name}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
-              </a>
+              </Link>
             ))}
             <button className="px-6 py-2 bg-primary text-primary-foreground rounded-lg font-medium hover:glow-primary transition-all duration-300 hover:scale-105">
               {t('nav.getStarted')}

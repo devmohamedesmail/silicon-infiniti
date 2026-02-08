@@ -130,5 +130,114 @@
             "privacy": "Privacy Policy"
         },
         "copyright": "Silicon Infiniti. All rights reserved."
+    },
+    "aboutPage": {
+        "badge": "Our Story",
+        "title1": "Innovating",
+        "title2": "The Future",
+        "subtitle": "We are a team of passionate innovators dedicated to transforming the digital landscape through cutting-edge technology and creative solutions.",
+        "story": {
+            "title": "Our Journey",
+            "description": "Founded with a vision to revolutionize the software industry, Silicon Infiniti has grown from a small startup to a leading technology company. We believe in the power of innovation to solve complex problems and create meaningful impact.",
+            "mission": {
+                "title": "Our Mission",
+                "description": "To empower businesses worldwide with innovative software solutions that drive growth, efficiency, and digital transformation."
+            },
+            "vision": {
+                "title": "Our Vision",
+                "description": "To be the global leader in software innovation, setting new standards for excellence and creating technology that shapes the future."
+            }
+        },
+        "values": {
+            "title": "Our Core Values",
+            "subtitle": "The principles that guide everything we do",
+            "items": {
+                "innovation": {
+                    "title": "Innovation",
+                    "description": "We constantly push boundaries and explore new technologies to deliver cutting-edge solutions."
+                },
+                "excellence": {
+                    "title": "Excellence",
+                    "description": "We maintain the highest standards in everything we do, from code quality to customer service."
+                },
+                "collaboration": {
+                    "title": "Collaboration",
+                    "description": "We believe in the power of teamwork and foster a culture of open communication and mutual support."
+                },
+                "integrity": {
+                    "title": "Integrity",
+                    "description": "We operate with transparency, honesty, and ethical practices in all our business dealings."
+                },
+                "customer": {
+                    "title": "Customer Focus",
+                    "description": "Our clients' success is our success. We go above and beyond to exceed expectations."
+                },
+                "growth": {
+                    "title": "Continuous Growth",
+                    "description": "We invest in learning and development to stay ahead of industry trends and technologies."
+                }
+            }
+        },
+        "stats": {
+            "title": "Our Impact",
+            "subtitle": "Numbers that speak for themselves",
+            "years": "Years in Business",
+            "projects": "Projects Completed",
+            "clients": "Happy Clients",
+            "team": "Team Members",
+            "countries": "Countries Served",
+            "satisfaction": "Client Satisfaction"
+        },
+        "cta": {
+            "title": "Ready to Start Your Project?",
+            "description": "Let's work together to bring your vision to life with innovative technology solutions.",
+            "button": "Get In Touch"
+        }
+    },
+    "contact": {
+        "badge": "Get In Touch",
+        "title1": "Let's Build",
+        "title2": "Something Amazing",
+        "subtitle": "Have a project in mind? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+        "form": {
+            "title": "Send us a message",
+            "name": "Full Name",
+            "namePlaceholder": "John Doe",
+            "email": "Email Address",
+            "emailPlaceholder": "john@example.com",
+            "phone": "Phone Number",
+            "phonePlaceholder": "+1 (555) 000-0000",
+            "subject": "Subject",
+            "subjectPlaceholder": "How can we help you?",
+            "message": "Message",
+            "messagePlaceholder": "Tell us about your project...",
+            "submit": "Send Message",
+            "sending": "Sending...",
+            "success": "Message sent successfully! We'll get back to you soon.",
+            "error": "Failed to send message. Please try again."
+        },
+        "info": {
+            "title": "Contact Information",
+            "email": {
+                "label": "Email",
+                "value": "hello@siliconinfiniti.com"
+            },
+            "phone": {
+                "label": "Phone",
+                "value": "+966 50 123 4567"
+            },
+            "location": {
+                "label": "Location",
+                "value": "Riyadh, Saudi Arabia"
+            },
+            "hours": {
+                "label": "Business Hours",
+                "value": "Sun - Thu: 9:00 AM - 6:00 PM"
+            }
+        },
+        "social": {
+            "title": "Follow Us",
+            "description": "Stay connected with us on social media"
+        }
     }
 }

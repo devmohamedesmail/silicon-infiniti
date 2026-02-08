@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -255,4 +257,13 @@
     background: linear-gradient(var(--background), var(--background)) padding-box,
       linear-gradient(135deg, #1bfaef, #00d4ff) border-box;
   }
+}
+
+
+
+
+
+
+html[lang="ar"] * {
+ font-family: 'Cairo', sans-serif !important;
 }
