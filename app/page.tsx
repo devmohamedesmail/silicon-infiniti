@@ -4,6 +4,7 @@ import Projects from "@/components/sections/projects";
 import Footer from "@/components/ui/footer";
 import Navbar from "@/components/ui/navbar";
 import LanguageSwitcher from "@/components/ui/language-switcher";
+import FloatContact from "@/components/ui/float-contact";
 
 export default function Home() {
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Projects />
       <Footer />
       <LanguageSwitcher />
+      <FloatContact />
     </div>
   );
 }

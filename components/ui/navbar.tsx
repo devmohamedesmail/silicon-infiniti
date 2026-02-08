@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Code2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
+import Logo from './logo';
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -22,8 +23,8 @@ export default function Navbar() {
   const navLinks = [
     { name: t('nav.home'), href: '/' },
     { name: t('nav.about'), href: '/about' },
-    { name: t('nav.services'), href: '#services' },
-    { name: t('nav.projects'), href: '#projects' },
+    { name: t('nav.services'), href: '/services' },
+    { name: t('nav.projects'), href: '/projects' },
     { name: t('nav.contact'), href: '/contact' },
   ];
 
@@ -42,23 +43,9 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <a
-            href="#home"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToSection('#home');
-            }}
-            className="flex items-center space-x-2 group"
-          >
-            <div className="relative">
-              <Code2 className="w-8 h-8 text-primary transition-transform duration-300 group-hover:rotate-12" />
-              <div className="absolute inset-0 blur-xl bg-primary/30 group-hover:bg-primary/50 transition-all duration-300" />
-            </div>
-            <span className="text-2xl font-bold gradient-text">
-              Silicon Infiniti
-            </span>
-          </a>
+       
+        
+          <Logo />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -66,10 +53,10 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection(link.href);
-                }}
+                // onClick={(e) => {
+                //   e.preventDefault();
+                //   scrollToSection(link.href);
+                // }}
                 className="text-foreground/80 hover:text-primary transition-colors duration-300 relative group"
               >
                 {link.name}
