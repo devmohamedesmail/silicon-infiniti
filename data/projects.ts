@@ -63,7 +63,7 @@ export const projects = [
         gradient: "from-indigo-500 to-blue-400",
         image: "/images/projects/jiffy.webp",
         link: "https://www.jiffy.com/",
-    }, 
+    },
     {
         id: 6,
         title_ar: "منصة متجر النظارات المصممة",
@@ -77,7 +77,7 @@ export const projects = [
         image: "/images/projects/DO.webp",
         link: "https://www.designeroptics.com/",
     },
-     {
+    {
         id: 7,
         title_ar: "موقع علامة تجارية للساعات السويسرية الفاخرة",
         title_en: "Luxury Swiss Watch Brand Website",
@@ -89,7 +89,7 @@ export const projects = [
         gradient: "from-gray-800 to-gold-500",
         image: "/images/projects/grid.webp",
         link: "https://www.mauricelacroix.com/",
-    }, 
+    },
     {
         id: 8,
         title_ar: "تصميم واجهة موقع ملابس الأداء اليومية",
@@ -102,6 +102,33 @@ export const projects = [
         gradient: "from-blue-400 to-gray-700",
         image: "/images/projects/32-degree.webp",
         link: "https://www.32degrees.com/",
+    },
+    {
+        id: 9,
+        title_ar: "تطبيق ريفا لتوصيل الطعام - أندرويد",
+        title_en: "Riva Food Delivery App - Android",
+        description_ar: "تصميم واجهة تطبيق أندرويد لتوصيل الطعام يركّز على تجربة مستخدم سلسة، عرض قوائم الطعام حسب التصنيفات، وإمكانية تتبع الطلبات في الوقت الفعلي.",
+        description_en: "A UI/UX concept for Riva's Android food delivery app, featuring a smooth user experience, categorized food menus, and real-time order tracking.",
+        category_ar: "تطبيقات الهواتف",
+        category_en: "Mobile App Design",
+        tags: ["Food Delivery", "Android", "UI/UX", "Real-Time Tracking", "App Design"],
+        gradient: "from-green-400 to-yellow-500",
+        image: "/images/projects/riva.png",
+        link: "https://play.google.com/store/apps/details?id=com.riva.food",
+    },
+    {
+        id: 10,
+        title_ar: "تطبيق ريفا لتوصيل الطعام - iOS",
+        title_en: "Riva Food Delivery App - iOS",
+        description_ar: "تصميم واجهة تطبيق iOS لتوصيل الطعام يركّز على تجربة مستخدم سلسة، عرض قوائم الطعام حسب التصنيفات، وإمكانية تتبع الطلبات في الوقت الفعلي.",
+        description_en: "A UI/UX concept for Riva's iOS food delivery app, featuring a smooth user experience, categorized food menus, and real-time order tracking.",
+        category_ar: "تطبيقات الهواتف",
+        category_en: "Mobile App Design",
+        tags: ["Food Delivery", "iOS", "UI/UX", "Real-Time Tracking", "App Design"],
+        gradient: "from-green-400 to-yellow-500",
+        image: "/images/projects/riva.png",
+        link: "https://apps.apple.com/app/riva-food-delivery/id1234567890",
     }
+
 
 ];
