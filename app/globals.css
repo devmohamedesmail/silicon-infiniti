@@ -5,6 +5,18 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+@font-face {
+  font-family: 'Mokoto';
+  src: url('/fonts/mokoto/Mokoto_Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-mokoto {
+  font-family: 'Mokoto', sans-serif;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -257,6 +269,10 @@
     background: linear-gradient(var(--background), var(--background)) padding-box,
       linear-gradient(135deg, #1bfaef, #00d4ff) border-box;
   }
+}
+
+.logo-text{
+  font-family: 'mokoto', sans-serif !important;
 }
 
 

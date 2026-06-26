@@ -5,6 +5,7 @@ import { Menu, X, Code2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import Logo from './logo';
+import LangToggle from './lang-toggle';
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -63,6 +64,7 @@ export default function Navbar() {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
               </Link>
             ))}
+            <LangToggle />
             <button className="px-6 py-2 bg-primary text-primary-foreground rounded-lg font-medium hover:glow-primary transition-all duration-300 hover:scale-105">
               {t('nav.getStarted')}
             </button>

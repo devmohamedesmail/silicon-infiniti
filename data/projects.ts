@@ -128,7 +128,47 @@ export const projects = [
         gradient: "from-green-400 to-yellow-500",
         image: "/images/projects/riva.png",
         link: "https://apps.apple.com/app/riva-food-delivery/id1234567890",
-    }
+    },
+    {
+        id: 11,
+        title_ar: "تصميم متجر إلكتروني للعطور الفاخرة",
+        title_en: "Luxury Fragrance E-Commerce Website",
+        description_ar: "تصميم واجهة متجر إلكتروني متخصص في بيع العطور الأصلية، مع تجربة تسوق حديثة تشمل تصنيفات حسب الروائح والعلامات التجارية، صفحات منتجات احترافية، عروض وخصومات، وبحث متقدم لتسهيل اكتشاف العطر المناسب.",
+        description_en: "A premium e-commerce website concept for authentic luxury fragrances, featuring elegant product showcases, fragrance note categories, advanced filtering, brand collections, exclusive deals, and a seamless shopping experience.",
+        category_ar: "تجارة إلكترونية",
+        category_en: "E-Commerce Design",
+        tags: [
+            "Luxury UI",
+            "Perfume Store",
+            "E-Commerce",
+            "Product Catalog",
+            "Advanced Filters",
+            "Responsive Design"
+        ],
+        gradient: "from-amber-400 via-orange-500 to-neutral-900",
+        image: "/images/projects/fragrancemarket.webp",
+        link: "https://fragrancemarket.com/",
+    },
+    {
+    id: 12,
+    title_ar: "تصميم متجر إلكتروني للأحذية الرياضية الفاخرة",
+    title_en: "Premium Sneaker E-Commerce Website",
+    description_ar: "تصميم واجهة متجر إلكتروني عصري للأحذية الرياضية الفاخرة مستوحى من GREATS، يركز على إبراز جودة المنتجات، والخامات المميزة، وتجربة تسوق بسيطة مع تصنيفات واضحة، وصفحات منتجات احترافية، وتصميم يعكس هوية العلامة التجارية.",
+    description_en: "A modern e-commerce website concept inspired by GREATS, showcasing premium sneakers with a minimalist shopping experience, refined product pages, curated collections, and a strong emphasis on craftsmanship and brand identity.",
+    category_ar: "تجارة إلكترونية",
+    category_en: "E-Commerce Design",
+    tags: [
+        "Sneakers",
+        "Fashion",
+        "Luxury Brand",
+        "Minimal UI",
+        "E-Commerce",
+        "Responsive Design"
+    ],
+    gradient: "from-stone-200 via-gray-500 to-black",
+    image: "/images/projects/ugchub.png",
+    link: "https://www.greats.com/",
+},
 
 
 ];

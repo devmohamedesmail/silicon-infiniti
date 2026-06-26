@@ -3,6 +3,7 @@
 import React from 'react';
 import { Code2, Mail, Phone, MapPin, Twitter, Linkedin, Github, Instagram } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Logo from './logo';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -43,11 +44,12 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="relative">
+              {/* <div className="relative">
                 <Code2 className="w-8 h-8 text-primary" />
                 <div className="absolute inset-0 blur-xl bg-primary/30" />
               </div>
-              <span className="text-2xl font-bold gradient-text">Silicon Infiniti</span>
+              <span className="text-2xl font-bold gradient-text">Silicon Infiniti</span> */}
+              <Logo />
             </div>
             <p className="text-foreground/70 mb-6 max-w-sm">
               {t('footer.tagline')}
@@ -61,11 +63,15 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 text-foreground/70">
                 <Phone className="w-5 h-5 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+971 58 910 7126</span>
               </div>
               <div className="flex items-center gap-3 text-foreground/70">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span>San Francisco, CA</span>
+                <span>Dubai, United Arab Emirates</span>
+              </div>
+              <div className="flex items-center gap-3 text-foreground/70">
+                <MapPin className="w-5 h-5 text-primary" />
+                <span>Cairo, Egypt</span>
               </div>
             </div>
           </div>
