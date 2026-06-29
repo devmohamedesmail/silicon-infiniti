@@ -3,6 +3,8 @@
 import React from 'react';
 import { ArrowRight, Sparkles, Zap, Code } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
+
 
 export default function Hero() {
     const { t } = useTranslation();
@@ -44,13 +46,13 @@ export default function Hero() {
 
                     {/* CTA Buttons */}
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 fade-in" style={{ animationDelay: '0.4s' }}>
-                        <button className="group px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold text-lg hover:glow-primary transition-all duration-300 hover:scale-105 flex items-center gap-2">
+                        <Link href="/contact" className="group px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold text-lg hover:glow-primary transition-all duration-300 hover:scale-105 flex items-center gap-2">
                             {t('hero.cta1')}
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                        </button>
-                        <button className="px-8 py-4 glass rounded-lg font-semibold text-lg hover:border-primary/30 transition-all duration-300 hover:scale-105">
+                        </Link>
+                        <Link href="/projects" className="px-8 py-4 glass rounded-lg font-semibold text-lg hover:border-primary/30 transition-all duration-300 hover:scale-105">
                             {t('hero.cta2')}
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Stats */}

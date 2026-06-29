@@ -4,14 +4,15 @@ import React from 'react';
 import { Code2, Mail, Phone, MapPin, Twitter, Linkedin, Github, Instagram } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Logo from './logo';
+import { dataInfo } from '@/data/data-info';
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t,i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   const footerLinks = {
     company: [
-      { name: t('footer.company.aboutUs'), href: '#about' },
+      { name: t('footer.company.aboutUs'), href: '/about' },
       { name: t('footer.company.services'), href: '#services' },
       { name: t('footer.company.projects'), href: '#projects' },
       { name: t('footer.company.careers'), href: '#careers' },
@@ -44,11 +45,6 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              {/* <div className="relative">
-                <Code2 className="w-8 h-8 text-primary" />
-                <div className="absolute inset-0 blur-xl bg-primary/30" />
-              </div>
-              <span className="text-2xl font-bold gradient-text">Silicon Infiniti</span> */}
               <Logo />
             </div>
             <p className="text-foreground/70 mb-6 max-w-sm">
@@ -57,22 +53,15 @@ export default function Footer() {
 
             {/* Contact Info */}
             <div className="space-y-3">
-              <div className="flex items-center gap-3 text-foreground/70">
-                <Mail className="w-5 h-5 text-primary" />
-                <span>contact@siliconinfiniti.com</span>
-              </div>
-              <div className="flex items-center gap-3 text-foreground/70">
-                <Phone className="w-5 h-5 text-primary" />
-                <span>+971 58 910 7126</span>
-              </div>
-              <div className="flex items-center gap-3 text-foreground/70">
-                <MapPin className="w-5 h-5 text-primary" />
-                <span>Dubai, United Arab Emirates</span>
-              </div>
-              <div className="flex items-center gap-3 text-foreground/70">
-                <MapPin className="w-5 h-5 text-primary" />
-                <span>Cairo, Egypt</span>
-              </div>
+
+              {dataInfo.map((item) => (
+                <div className="flex items-center gap-3 text-foreground/70">
+                  {/* <Mail className="w-5 h-5 text-primary" /> */}
+                  <item.icon className="w-5 h-5 text-primary" />
+                  <span>{i18n.language === "ar" ? item.title_en : item.title_en}</span>
+                </div>
+              ))}
+             
             </div>
           </div>
 

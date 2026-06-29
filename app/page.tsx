@@ -6,6 +6,7 @@ import Footer from "@/components/ui/footer";
 import Navbar from "@/components/ui/navbar";
 import LanguageSwitcher from "@/components/ui/language-switcher";
 import FloatContact from "@/components/ui/float-contact";
+import Layout from "@/components/ui/layout";
 
 export const metadata: Metadata = {
   title: "Home - Innovative Software Solutions",
@@ -57,15 +58,12 @@ export default function Home() {
           __html: JSON.stringify(webPageSchema),
         }}
       />
-      <div>
-        <Navbar />
+
+      <Layout>
         <Hero />
         <About />
         <Projects />
-        <Footer />
-        <LanguageSwitcher />
-        <FloatContact />
-      </div>
+      </Layout>
     </>
   );
 }
